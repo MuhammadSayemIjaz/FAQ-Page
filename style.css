@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Meow Script', cursive;
+}
+:root{
+    --color1:#C49E61;
+}
+.mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.heading h1{
+    color: var(--color1);
+}
